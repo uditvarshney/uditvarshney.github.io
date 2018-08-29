@@ -7,7 +7,7 @@ html,body{
 }
 .container-1{
 	display: flex;
-	align-items: center;
+	align-items: left;
 	flex-flow: row wrap;
 	background-color: rgba(255,255,255,1);
 	padding: 10px 20px;
@@ -113,6 +113,9 @@ html,body{
 	box-sizing: border-box;
 	padding: 10px 25px;
 	flex: 1;
+	border: .1px solid #efefef;
+	box-shadow: 2px 2px 5px #efefef;
+	z-index: 2px;
 }
 .sub-article{
 	display: flex;
@@ -121,9 +124,11 @@ html,body{
 }
 .sub-child1{
 	width: 100%;
+	order: 2;
 }
 .sub-child2{
 	width: 100%;
+	order: 1;
 }
 
 @media screen and (max-width: 768px) {
