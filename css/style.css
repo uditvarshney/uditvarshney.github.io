@@ -18,6 +18,7 @@ html,body{
 	z-index: 50;
 	box-shadow: 1px 5px 8px #696969;
 }
+/*		header style 		*/
 .header-left{
 	flex: 1;
 
@@ -71,6 +72,8 @@ html,body{
 		color: black;
 	}
 }
+
+/* 		hero style 		*/
 .hero-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../image/bg5.jpg");
   background-position: center;
