@@ -7,7 +7,6 @@ html,body{
 }
 .container-1{
 	display: flex;
-	align-items: left;
 	flex-flow: row wrap;
 	background-color: rgba(255,255,255,1);
 	padding: 10px 20px;
@@ -118,7 +117,7 @@ html,body{
 	flex: 1;
 	border: .1px solid #efefef;
 	box-shadow: 2px 2px 5px #efefef;
-	z-index: 2px;
+	z-index: 2;
 }
 .sub-article{
 	display: flex;
@@ -228,6 +227,9 @@ html,body{
 	padding: 10px;
 	box-sizing: border-box;
 	text-align: center;
+}
+.footer-box3 a{
+	text-decoration: none;
 }
 @media screen and (max-width:700px)  {
 	.footer{
